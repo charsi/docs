@@ -215,7 +215,7 @@ In the following example we will take our existing service and use
 - `@feathersjs/socketio` which uses Socket.io to do the same as a websocket real-time API (as we will see in a bit this is where the `created` event we saw above comes in handy)
 
 ```sh
-npm install @feathersjs/socketio @feathersjs/express --save
+npm install @feathersjs/transport-commons @feathersjs/socketio @feathersjs/express --save
 ```
 
 :::: tabs :options="{ useUrlFragment: false }"
